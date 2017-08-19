@@ -4,7 +4,6 @@ import pyautogui
 import time
 import hakusai_room
 import sys
-
 import capture
 
 def subDashAttack():
@@ -93,7 +92,7 @@ def waitHakusai():
 			time.sleep(14)
 			pyautogui.mouseUp(mouse_pos[0],mouse_pos[1],button='left')
 			
-			moveSafePos()
+			hakusai_room.moveSafePos()
 
 		if capture.getHP() < 50:
 			pyautogui.keyDown('f1')

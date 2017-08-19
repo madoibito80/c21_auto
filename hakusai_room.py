@@ -4,6 +4,8 @@ import os
 import datetime
 import time
 import sys
+import pyautogui
+import capture
 
 def moveSafePos():
 	
